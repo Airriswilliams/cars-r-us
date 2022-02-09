@@ -1,4 +1,4 @@
-import { getPaints } from "./database.js";
+import { getPaints, setPaint } from "./database.js";
 
 const paints = getPaints()
 
@@ -7,7 +7,7 @@ document.addEventListener(
     (event) => {
         if (event.target.name === "paint") {
             // invoking setSize function which puts a property onto the orderBuilder object
-            setSize(parseInt(event.target.value))
+            setPaint(parseInt(event.target.value))
         }
     }
 )

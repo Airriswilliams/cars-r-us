@@ -1,4 +1,4 @@
-import { getInteriors } from "./database.js";
+import { getInteriors, setInterior } from "./database.js";
 
 const interiors = getInteriors()
 
@@ -7,7 +7,7 @@ document.addEventListener(
     (event) => {
         if (event.target.name === "interior") {
             // invoking setSize function which puts a property onto the orderBuilder object
-            setSize(parseInt(event.target.value))
+            setInterior(parseInt(event.target.value))
         }
     }
 )
