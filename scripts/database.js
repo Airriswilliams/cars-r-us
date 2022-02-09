@@ -13,16 +13,16 @@ const database = {
         {id: 4, name: "Black Leather", price: 800}
     ],
     technologies: [
-        {id: 1, package: "Basic", price: 1100},
-        {id: 2, package: "Navigation", price: 1250},
-        {id: 3, package: "Visibility", price: 1400},
-        {id: 4, package: "Ultra", price: 1600}
+        {id: 1, package: "Basic Package", price: 1100},
+        {id: 2, package: "Navigation Package", price: 1250},
+        {id: 3, package: "Visibility Package", price: 1400},
+        {id: 4, package: "Ultra Package", price: 1600}
     ],
     wheels: [
-        {id: 1, size: 17, color: "None", type: "Radial", price: 1500},
-        {id: 2, size: 17, color: "Black", type: "Radial", price: 1700},
-        {id: 3, size: 18, color: "Silver", type: "Spoke", price: 1850},
-        {id: 4, size: 18, color: "Black", type: "Spoke", price: 1800}
+        {id: 1, size: "17-inch", color: "", type: "Pair Radial", price: 1500},
+        {id: 2, size: "17-inch", color: "Black", type: "Pair Radial", price: 1700},
+        {id: 3, size: "18-inch", color: "Silver", type: "Pair Spoke", price: 1850},
+        {id: 4, size: "18-inch", color: "Black", type: "Pair Spoke", price: 1800}
     ],
     customOrders: [
         {
